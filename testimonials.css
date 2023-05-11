@@ -145,8 +145,4 @@ body{
     height: 438px;
     margin-top: 24px;
 }
-@media(min-width:1440px){
-    body{
-       
-    }
-}
+@media(min-width:1440px){}
