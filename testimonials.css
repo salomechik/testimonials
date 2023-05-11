@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ECF2F8;
+}
+.purple, .grey, .white, .black, .last{
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    width:327px;
+}
+.purple{
+    height: 444px;
+    background-color: #733FC8;
+    position: relative;
+}
+.purpletitle, .greytitle, .lasttitle, .whitetitle, .blacktitle{
+    display: flex;
+    margin-top: 27px;
+    gap:17px;
+    height: 28px;
+}
+.purpleimage, .lastimage, .greyimage, .whiteimage, .blackimage{
+    margin-left: 32px;
+    border-radius: 50%;
+    height: 28px;
+}
+.purpleimage, .blackimage{
+    background: url(Image.png);
+    border: 2px solid #A775F1;
+}
+.purplenames, .greynames, .blacknames{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    height: 28px;
+}
+.graduate, .greygraduate, .lastgraduate, .blackgraduate, .whitegraduate{
+    opacity: 0.5;
+    margin-top: 4px;
+}
+.bgpattern{
+    width: 104px;
+    height: 102px;
+    position: absolute;
+    right: 24px;
+    top: 0px;
+}
+.title, .greymaintitle, .lastmaintitle, .blackmaintitle, .whitemaintitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 18px;
+    margin-left: 32px;
+    width: 263px;
+}
+.title, .greymaintitle, .blackmaintitle{
+    color: #FFFFFF;
+}
+.title{
+    position: absolute;
+    height: 120px;
+}
+.pparagraph, .greyp{
+    margin-top: 178px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #CFCFCF;
+    opacity: 0.7;
+    height: 180px;
+    width: 247px;
+    margin-left: 32px;
+}
+.grey{
+    background: #48556A;
+    height: 240px;
+    margin-top: 24px;
+}
+.greyimage{
+    background: url(Image.png);
+    border: 2px solid #48556A;
+}
+.greymaintitle{
+    height: 48px;
+}
+.greyp{
+    margin-top: 16px;
+    height: 180px;
+}
+.white{
+    height: 222px;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+}
+.whitenames, .last{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color:  #48556A;
+    height: 28px;
+}
+.whitemaintitle{
+    color: #48556A;
+    font-size: 20px;
+}
+.whitep, .lastp{
+  color: #48556A;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.7;
+  height: 180px;
+  width: 247px;
+  margin-left: 32px;
+}
+.black{
+    background-color: #19202D;
+    height: 384px;
+    margin-top: 24px;
+}
+.blackp{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #CFCFCF;
+    opacity: 0.7;
+    height: 180px;
+    width: 247px;
+    margin-left: 32px;
+}
+.last{
+    background: #FFFFFF;
+    height: 438px;
+    margin-top: 24px;
+}
+@media(min-width:1440px){
+    body{
+       
+    }
+}
